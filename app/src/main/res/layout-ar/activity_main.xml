@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="right">
+
+    <ImageView
+        android:id="@+id/imgFlag"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:src="@drawable/flag" />
+
+    <TextView
+        android:text="@string/default_text"
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_info" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_submit" />
+
+</LinearLayout>

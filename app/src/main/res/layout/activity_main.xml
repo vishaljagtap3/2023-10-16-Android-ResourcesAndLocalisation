@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Heading.Red"
+        android:text="Localisation Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:src="@drawable/flag"
+        android:id="@+id/imgFlag"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"/>
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="@string/hint_info"
+        android:id="@+id/edtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/label_submit"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

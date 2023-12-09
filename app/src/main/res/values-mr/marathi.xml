@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">साधने आणि प्रादेशिक</string>
+    <string name="company">बिटकोड</string>
+    <string name="hint_info">माहिती भरा</string>
+    <string name="label_submit">दाखल करा</string>
+</resources>

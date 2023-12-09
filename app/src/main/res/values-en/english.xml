@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResourcesAndLocalisation</string>
+    <string name="company">BitCode</string>
+    <string name="hint_info">Enter information</string>
+    <string name="label_submit">Submit</string>
+</resources>

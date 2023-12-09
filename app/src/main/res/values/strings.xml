@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ResourcesAndLocalisation</string>
+    <string name="company">बिटकोड</string>
+    <string name="hint_info">जानकारी भरे</string>
+    <string name="label_submit">जमा करे</string>
+    <string name="default_text">Default text</string>
+
+    <integer name="company_code">1011</integer>
+
+    <bool name="is_hidden">true</bool>
+
+    <color name="bg_color">#cdcdcd</color>
+
+    <dimen name="width">100dp</dimen>
+    <dimen name="height">100dp</dimen>
+
+    <integer-array name="pin_codes">
+        <item>411004</item>
+        <item>411021</item>
+        <item>411038</item>
+    </integer-array>
+
+    <string-array name="areas">
+        <item>Erandwane</item>
+        <item>Bavdhan</item>
+        <item>Kothrud</item>
+    </string-array>
+
+</resources>
